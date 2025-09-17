@@ -1,0 +1,17 @@
+OpenCV (opencv-python, opencv-contrib-python) → for webcam access and image processing.
+
+FER → for facial emotion recognition.
+
+MoviePy → required by fer.
+
+TensorFlow → backend for emotion recognition models.
+
+Mediapipe → computer vision utilities (dependency managed with protobuf).
+
+Ultralytics (YOLOv8) → for object detection.
+
+NumPy → core math library (you fixed version conflicts).
+
+Protobuf (v4.25.8) → required by TensorFlow and Mediapipe.
+
+Other dependencies (installed automatically):
